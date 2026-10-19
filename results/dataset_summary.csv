@@ -1,0 +1,7 @@
+,value
+n_patients,3753.0
+n_events,169.0
+event_rate,0.045
+n_train,2627.0
+n_test,1126.0
+n_features,35.0

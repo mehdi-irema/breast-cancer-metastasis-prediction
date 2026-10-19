@@ -1,0 +1,8 @@
+model,cv_AUC,AUC,AUC_95CI_low,AUC_95CI_high,sensitivity,specificity,balanced_accuracy,accuracy,best_params
+LDA,0.703,0.685,0.613,0.754,0.745,0.591,0.668,0.598,{'solver': 'svd'}
+Logistic regression,0.704,0.681,0.609,0.749,0.765,0.591,0.678,0.599,{'C': 0.01}
+SVM (RBF),0.704,0.681,0.604,0.752,0.686,0.631,0.658,0.633,"{'C': 0.1, 'gamma': 0.01}"
+Random forest,0.719,0.669,0.596,0.735,0.294,0.825,0.56,0.801,"{'max_features': 0.3, 'min_samples_leaf': 20}"
+Bagging,0.693,0.666,0.595,0.728,0.314,0.823,0.568,0.8,{'estimator__min_samples_leaf': 20}
+KNN,0.644,0.658,0.582,0.733,0.824,0.412,0.618,0.431,{'n_neighbors': 51}
+Decision tree,0.664,0.652,0.577,0.719,0.608,0.636,0.622,0.635,"{'max_depth': 3, 'min_samples_leaf': 50}"
