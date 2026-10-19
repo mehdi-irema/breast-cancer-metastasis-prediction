@@ -1,0 +1,7 @@
+# confidential patient data: never commit
+*.sav
+*.csv.gz
+data/
+private/
+__pycache__/
+.ipynb_checkpoints/
